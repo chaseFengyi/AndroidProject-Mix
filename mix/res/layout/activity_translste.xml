@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin" >
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/backTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:background="@null"
+            android:text="返回"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100sp"
+            android:text="@string/weather_search"
+            android:textColor="#faa"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/relative1"
+        android:layout_marginTop="5dip"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/pleaseInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/please_input"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/translateRelative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pleaseInput"
+        android:layout_below="@+id/pleaseInput" >
+
+        <com.mix.expressage.ClearEditText
+            android:id="@+id/input"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25sp"
+            android:layout_marginTop="5sp"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textColor="#aa2" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/translat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/translateRelative"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginTop="16sp"
+        android:background="@color/deepSkyBlue"
+        android:text="@string/translate" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/translat"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/translate_border"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:textColor="#a35"
+        android:textSize="20sp" />
+
+</RelativeLayout>

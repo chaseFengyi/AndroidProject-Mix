@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Orange">#FFA500</color>
+    <color name="LightSeaGreen">#20B2AA</color><!--浅海洋绿  -->
+    <color name="lightCoral">#F08080</color><!-- 淡珊瑚色 -->
+    <color name="cornflowerBlue">#6495ED</color><!-- 矢车菊的蓝色 -->
+    <color name="DodgerBlue">#1E90FF</color><!-- 道奇蓝 -->
+    <color name="pink">#FFC0CB</color><!-- 粉红 -->
+    <color name="hotPink">#FF69B4</color><!-- 热情的粉红 -->
+    <color name="gray">#808080</color>
+    <color name="deepSkyBlue">#00BFFF</color><!-- 深天蓝 -->
+    <color name="springGreen">#00FF7F</color><!-- 春天的绿色 -->
+</resources>

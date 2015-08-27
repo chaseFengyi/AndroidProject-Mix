@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">查询精灵</string>
+    <string name="weather">天气</string>
+    <string name="translate">翻译</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search">查询</string>
+    <string name="please_input">请输入</string>
+    <string name="expressage_search">快递查询</string>
+    <string name="company">公司</string>
+    <string name="single_number">单号</string>
+    <string name="all_expressage">所有快递</string>
+    <string name="result_expressage">查询结果</string>
+    <string name="weather_search">天气查询</string>
+    <string name="film_search">电影查询</string>
+    <string name="cityfilm">城市影讯</string>
+    <string name="isbn_search">ISBN查询</string>
+    <string name="detail_info">详细信息</string>
+
+</resources>
